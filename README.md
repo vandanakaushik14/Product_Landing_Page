@@ -1,2 +1,2 @@
 # Product_Landing_Page
-This product landing page is about Online Dresses Shopping Website
+I developed this landing page using HTMl, CSS and Javascript.
