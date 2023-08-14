@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- --------Favicon------------ -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <!-- Remixicons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Clothing Mania</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav conatainer">
+        <a href="#" class="nav__logo"> Shop. </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>New</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#collection" class="nav__link">
+                <i class="ri-compass-line"></i>
+                <span>Collections</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#product" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Product</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Theme Change button -->
+        <i class="ri-moon-line"></i>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              New Clothing <br />
+              Collections
+            </h1>
+            <p class="home__description">
+              The new Collections of clothing from <br />
+              the best brands this year.
+            </p>
+            <a href="#new" class="button__link">
+              Explore More <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__images">
+            <img src="assets/img/model1.jpg" alt="home image" />
+            <img src="assets/img/model2.jpg" alt="home image" />
+          </div>
+        </div>
+      </section>
+      <section class="new section" id="new">
+        <h2 class="section__title">New Categories</h2>
+        <div class="new_container container gird">
+          <article class="new__card">
+            <img
+              src="assets/img/model3.jpg"
+              alt="New images"
+              class="new__img"
+            />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Gowns</h2>
+                <span>Winter Collections</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="new__card">
+            <img
+              src="assets/img/jeans1.jpeg"
+              alt="New images"
+              class="new__img"
+            />
+            <a href="#collection" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Pants & Jeans</h2>
+                <span>Winter Collections</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="new__card">
+            <img
+              src="assets/img/coat1.jpeg"
+              alt="New images"
+              class="new__img"
+            />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Coats & Coat Sets</h2>
+                <span>Winter Collections</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      <section class="Collection section" id="collection">
+        <div class="collection__container container">
+          <div class="collection__explore">
+            <div class="collection__data-women">
+              <h2 class="collection__title">Women <br />Collections</h2>
+              <a href="#" class="button__link">
+                Explore Clothes <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <img src="assets/img/coat3.jpeg" alt="collection image" />
+          </div>
+          <div class="collection__explore">
+            <img src="assets/img/men1.jpeg" alt="coolection image" />
+
+            <div class="collection__data-men">
+              <h2 class="collection__title">Men <br />Collections</h2>
+              <a href="#" class="button__link">
+                Explore Clothes <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section" id="products">
+        <h2 class="section__title">Our Products</h2>
+        <div class="video-container">
+          <video
+            class="video-wrapper"
+            src="assets/img/Video Fashion Ads. _ Passa Silkwear.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </section>
+
+      <section class="brand section" id="product">
+        <h2 class="section-title">Brands we sell</h2>
+        <div class="brand-container container grid">
+          <img
+            src="assets/img/brand1.png"
+            alt="logo image"
+            class="brand-logo"
+          />
+          <img
+            src="assets/img/brand8.png"
+            alt="logo image"
+            class="brand-logo"
+          />
+          <img
+            src="assets/img/brand3.png"
+            alt="logo image"
+            class="brand-logo"
+          />
+          <img
+            src="assets/img/brand4.png"
+            alt="logo image"
+            class="brand-logo"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="div">
+          <a href="#" class="footer__logo"> shop. </a>
+          <p class="footer__description">
+            Committed to bringing you the <br />
+            best clothing from popular <br />brands.
+          </p>
+        </div>
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Category</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact info</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Blog</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Events</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Popular News </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Recent News</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Office</h3>
+            <p class="footer__information">
+              Monday - Saturday <br />
+              9AM - 10PM
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Contact US</h3>
+            <ul class="footer__social">
+              <!-- --insert your name from facebook page--- -->
+
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-line"></i>
+              </a>
+              <!-- ---insert your name from instagram page----- -->
+
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <!-- ------insert a real number plus country code---- -->
+              <a
+                href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy">
+          &#169; Clothing Mania. All rights reserved
+        </span>
+        <a href="#" class="footer__privacy">Terms & Conditions</a>
+      </div>
+    </footer>
+    <!-- scorll up -->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
